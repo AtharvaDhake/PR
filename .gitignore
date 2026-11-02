@@ -1,0 +1,29 @@
+# Dataset archives
+*.zip
+*.tar.gz
+
+# Large dataset CSV and Excel files (>100MB blocked by GitHub)
+*.csv
+*.xlsx
+
+# Extracted dataset directories
+Pneumonia X Ray/
+brain tumor/
+BrainTumour_extracted/
+cats_and_dogs_filtered/
+CatsDogs_extracted/
+Food/
+food-101/
+CIFAR10_extracted/
+CreditCard_extracted/
+FashionMNIST_extracted/
+MNIST_extracted/
+
+# Generated plot images
+chit*_plot.png
+
+# IDE and OS files
+.vscode/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
